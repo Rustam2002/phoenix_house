@@ -1,0 +1,194 @@
+*{
+	margin:0;
+	padding:0; 
+}
+
+header{
+	width: 100%;
+	height: 800px;
+	background-color: gray;
+	background-image: url(images/5.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+	margin-top: 0;
+}
+
+#a{
+	width: 90%;
+	height:180px;
+	position: fixed;
+	background-image: url(images/4.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#add{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+	height: 1700px;
+	background-image: url(images/1.jpg);
+	background-size:100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.ob{
+	width: 60%;
+	height: 650px;
+	background-color: rgba(255, 210, 2, 0.5);
+	margin-top: 150px;
+	border-radius: 30px;
+	text-align: center;
+	margin-left: 20%;
+}
+
+.oс{
+	width: 60%;
+	height: 650px;
+	background-color: rgba(12, 0, 255, 0.5);
+	margin-top: 150px;
+	border-radius: 30px;
+	text-align: center;
+	margin-left: 20%;
+	margin-bottom: 150px;
+}
+
+h1{
+	padding-top: 20px;
+	color: white;
+	text-shadow: 4px 4px 8px black;
+}
+
+#link{
+	width: 100%;
+	height: 100px;
+	background-color: rgb(113, 97, 68);
+	display: flex;
+	justify-content: center;
+}
+
+#number{
+	width: 300px;
+	text-align: right;
+	margin-left: 15%;
+	margin-top: 0;
+}
+
+.lin{
+	padding-top:5px; 
+	display: inline-block;
+}
+
+button{
+	width: 180px;
+	height: 70px;
+	display: inline;
+	margin-top: 15px; 
+	border: none;
+	border: 7px solid white;
+	border-radius: 20px;
+	background-color: rgb(175, 15, 15);
+	color: white;
+	font-size: 30px;
+}
+
+button:hover{
+	border: 7px solid blue;
+	color: blue;
+}
+
+.icon{
+	width: 50px;
+	height: 50px;
+}
+
+.dws-menu{
+	width: 90%;
+	margin-left: 13%;
+
+}
+
+.dws-menu ul,
+.dws-menu ol{
+	list-style: none;
+}
+
+.dws-menu > ul{
+	display: flex;
+	justify-content: center;
+	padding-top: 17px;
+}
+
+.dws-menu > ul li a{
+	display: block;
+	padding: 15px 76px 14px 77px;
+	font-size: 30px;
+	color: black;
+	text-decoration: none;
+	margin-top: 0px; 
+	transition: all 0.5s ease;
+}
+
+.dws-menu > ul li{
+	position: relative;
+	border-right: 1px solid #b2b3b5;
+	border-left: 1px solid #b2b3b5;
+}
+
+.dws-menu > ul li > a img.icon{
+	position: absolute;
+	top: 12px;
+	left: 8px;
+}
+
+.dws-menu > ul li:first-child{
+	border-left: 1.5px solid #b2b3b5;
+}
+
+.dws-menu > ul li:last-child{
+	border-right: 1.5px solid #b2b3b5;
+}
+
+.dws-menu li a:hover{
+	background: #454547;
+	color: white;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+
+footer{
+	width: 100%;
+	height: 400px;
+	background-image: url(images/7.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#map{
+	padding-left: 20px;
+	padding-top: 45px;
+}
+
+.add-img{
+	width: 40%;
+	height: 200px;
+	display: block;
+	margin-top: 40px;
+	margin-left: 30px;
+	border: 15px solid white;
+	border-radius: 30px;
+}
+
+.add-img:hover{
+	width: 42%;
+	height: 220px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
